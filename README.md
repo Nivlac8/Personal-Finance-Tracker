@@ -1,6 +1,7 @@
 # 💰 Personal Finance Dashboard: Strategic Wealth Engine
 
 ![Executive Dashboard](budget-dashboard-main.png)
+
 *(The "Executive Overview" showing real-time liquidity, burn rate, and projected savings)*
 
 ---

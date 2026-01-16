@@ -1,7 +1,6 @@
-# 💎 Cyber-Finance Gold: Strategic Wealth Engine
+# 💰 Personal Finance Dashboard: Strategic Wealth Engine
 
 ![Executive Dashboard](budget-dashboard-main.png)
-
 *(The "Executive Overview" showing real-time liquidity, burn rate, and projected savings)*
 
 ---
@@ -9,14 +8,14 @@
 ### 📊 Project Overview
 This project represents a **Product-First approach** to personal finance. 
 
-Most budget spreadsheets are static and reactive. I designed "Cyber-Finance Gold" to be **dynamic and predictive**. It functions as a complete "Financial Operating System" that forces the user to actively manage Liquidity, Burn Rate, and Net Asset Value (NAV) in real-time. 
+Most budget spreadsheets are static and reactive. I designed this "Personal Finance Dashboard" to be **dynamic and predictive**. It functions as a complete "Financial Operating System" that forces the user to actively manage Liquidity, Burn Rate, and Net Asset Value (NAV) in real-time. 
 
 **Goal:** To engineer a logic-based system that eliminates calculation errors and provides institutional-grade financial visibility for personal use.
 
 ---
 
 ### 🛠️ Skills & Logic Used
-* **Platform:** Advanced Google Sheets / Excel
+* **Platform:** Advanced Google Sheets
 * **Data Modeling:** Relational table structure (linking Transactions to Asset IDs).
 * **Advanced Logic:** Complex Nested Formulas (`SUMIFS`, `GETPIVOTDATA`, `XLOOKUP`, `ARRAYFORMULA`).
 * **UI/UX Design:** Conditional Formatting for visual status indicators and "App-like" dashboard layout.
@@ -39,6 +38,12 @@ Most budget spreadsheets are static and reactive. I designed "Cyber-Finance Gold
 #### 3. The "Debt War Room" (Simulation Engine)
 * **Function:** A forecasting tool built into the dashboard.
 * **Logic:** Users input their Debt Balance and APR. The model calculates the "Daily Interest Cost" and projects the exact payoff date based on current repayment velocity.
+
+#### 4. The Workflow Interface (Sidebar UI)
+![Sidebar Operations](budget-sidebar-ops.png) | ![Sidebar Command](budget-sidebar-cmd.png)
+* **The Problem:** Manual row entry in spreadsheets is prone to human error (typos, wrong dates).
+* **The Solution:** I implemented a **Form-Based Sidebar Interface** that floats inside the sheet.
+* **UX Strategy:** This "App-like" interface ensures 100% data consistency by forcing users to select from pre-approved categories. It decouples the user from the raw data rows, preventing accidental formula breakage.
 
 ---
 
